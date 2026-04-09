@@ -1,4 +1,4 @@
-Crime‑Risk Prediction Model for Insurance Premium Pricing
+# Crime‑Risk Prediction Model for Insurance Premium Pricing
 A machine‑learning project that predicts high‑risk vs low‑risk geographic grids using spatial, temporal, and contextual crime data. Designed to support insurers in setting fair, risk‑aligned premiums.
 
 Author
