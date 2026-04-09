@@ -72,4 +72,33 @@ The project includes:
 ### Numeric-only prediction
 ```python
 predict_risk_numeric(lat, long, hour, day, month, year)
+```
+
+## Full prediction with categorical inputs
+```python
+predict_risk_full(lat, long, hour, day, month, year, premises_type, location_type)
+```
+
+Both functions return:
+- Predicted class (0 = low risk, 1 = high risk)
+- Probability of high risk
+
+## Project Structure
+```Code
+├── data/
+├── notebooks/
+├── src/
+│   ├── preprocessing.py
+│   ├── modeling.py
+│   ├── visualization.py
+│   └── prediction_utils.py
+├── README.md
+└── requirements.txt
+```
+
+
+
+
+
+
 
